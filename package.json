@@ -1,5 +1,5 @@
 {
-  "name": "check-stable-deps",
+  "name": "check-unstable-deps",
   "version": "1.0.0",
   "description": "Check if dependencies of a scope contains pre-release versions",
   "main": "index.js",
