@@ -1,0 +1,15 @@
+{
+  "name": "check-stable-deps",
+  "version": "1.0.0",
+  "description": "Check if dependencies of a scope contains pre-release versions",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bitfinex",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.3.5"
+  }
+}
