@@ -6,9 +6,11 @@ const [, , command, ...args] = process.argv
 
 switch (command) {
   case 'check-unstable-deps':
-    return checkUnstableDependencies(...args)
+    checkUnstableDependencies(...args)
+    break
   case 'update-by-tag':
-    return updateByTag(...args)
+    updateByTag(...args)
+    break
   default: {
     console.error('ERROR: invalid command')
     process.exit(1)
