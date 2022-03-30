@@ -1,5 +1,5 @@
 {
-  "name": "check-unstable-deps",
+  "name": "bfx-hf-version-utils",
   "version": "1.0.0",
   "description": "Check if dependencies of a scope contains pre-release versions",
   "main": "bin.js",
