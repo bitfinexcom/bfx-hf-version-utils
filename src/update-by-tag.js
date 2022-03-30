@@ -12,9 +12,10 @@ const npm = (args) => {
   })
 }
 
-module.exports = (tag = 'canary') => {
+module.exports = (tag) => {
   if (!tag) {
-    console.error('')
+    console.error('ERROR: command argument "tag" not provided')
+    console.error('Usage: ... update-by-tag canary')
     process.exit(1)
   }
 
