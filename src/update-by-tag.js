@@ -3,6 +3,7 @@ const ChildProcess = require('child_process')
 const { listHfDependencies } = require('./shared')
 
 const owner = 'bitfinexcom'
+const tag = 'canary'
 
 const npm = (args) => {
   console.log(args)
@@ -12,13 +13,7 @@ const npm = (args) => {
   })
 }
 
-module.exports = (tag) => {
-  if (!tag) {
-    console.error('ERROR: command argument "tag" not provided')
-    console.error('Usage: ... update-by-tag canary')
-    process.exit(1)
-  }
-
+module.exports = () => {
   const dependencies = listHfDependencies()
   const depsToBeUpdated = []
   const depsToBeInstalled = []
