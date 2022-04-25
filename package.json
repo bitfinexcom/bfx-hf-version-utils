@@ -1,0 +1,18 @@
+{
+  "name": "bfx-hf-version-utils",
+  "version": "1.0.0",
+  "description": "Check if dependencies of a scope contains pre-release versions",
+  "main": "bin.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "author": "Bitfinex",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
